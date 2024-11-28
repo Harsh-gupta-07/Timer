@@ -1,0 +1,45 @@
+body{
+    background-color: #111;
+    color: rgb(255, 255, 255);
+}
+
+#main{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+h1{
+    font-size: 150px;
+    font-family: 'Orbitron',Arial, Helvetica, sans-serif; 
+    font-weight: 400;
+}
+
+button{
+    background-color: white;
+    padding: 12px 45px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    color: rgba(0,0,0,0.6)
+}
+
+button:active{
+    color: rgba(0,0,0,0.2)
+}
