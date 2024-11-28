@@ -1,7 +1,9 @@
 const time = document.getElementById("timer")
 let elapsed = 0
 let interval = null
-
+const startbtn = document.getElementById("start").addEventListener("click", start)
+const stopbtn = document.getElementById("stop").addEventListener("click", stop)
+const resetbtn = document.getElementById("reset").addEventListener("click", reset)
 
 
 function padding(val){
