@@ -3,6 +3,7 @@ body{
     color: rgb(255, 255, 255);
 }
 
+
 #main{
     position: absolute;
     top: 30%;
@@ -19,11 +20,13 @@ body{
     flex-wrap: nowrap;
 }
 
+
 h1{
     font-size: 150px;
     font-family: 'Orbitron',Arial, Helvetica, sans-serif; 
     font-weight: 400;
 }
+
 
 button{
     background-color: white;
@@ -36,9 +39,11 @@ button{
     font-family: "Montserrat",Arial, Helvetica, sans-serif;
 }
 
+
 button:hover{
     color: rgba(0,0,0,0.6)
 }
+
 
 button:active{
     color: rgba(0,0,0,0.2)
