@@ -12,7 +12,7 @@ function padding(val){
 
 
 
-function timeinc(){
+function timeInc(){
     elapsed++;
     let minutes = Math.floor(elapsed/60)
     let seconds = elapsed%60
@@ -22,7 +22,16 @@ function timeinc(){
 
 
 function start(){
-    interval = setInterval(timeinc,1000)
+    addInterval()
+}
+
+function addInterval(){
+    if (interval){
+        clearInterval(interval)
+        interval = setInterval(timeInc, 1000)
+    }else{
+        interval = setInterval(timeInc, 1000)
+    }
 }
 
 

@@ -29,6 +29,7 @@ h1{
 
 
 button{
+    cursor: pointer;
     background-color: white;
     padding: 12px 45px;
     border: 1px solid #ddd;
